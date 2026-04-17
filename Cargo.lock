@@ -4071,7 +4071,7 @@ dependencies = [
  "toml",
  "tracing",
  "tracing-subscriber",
- "tree-sitter 0.26.8",
+ "tree-sitter",
  "tree-sitter-dockerfile",
  "ureq",
  "walkdir",
@@ -4087,7 +4087,7 @@ checksum = "fd94a25234c987eec2efbf0ff1a43082b043e7cc49299aab91751440264110d0"
 dependencies = [
  "cc",
  "tokensave-medium-treesitters",
- "tree-sitter 0.26.8",
+ "tree-sitter",
  "tree-sitter-batch",
  "tree-sitter-dockerfile",
  "tree-sitter-fortran",
@@ -4110,7 +4110,7 @@ version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b645134fbb55b21381bde082fcdd09f300123506239333fd81ac1c7c82b72314"
 dependencies = [
- "tree-sitter 0.26.8",
+ "tree-sitter",
  "tree-sitter-c",
  "tree-sitter-go",
  "tree-sitter-java",
@@ -4128,7 +4128,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6ce5b721b1cfbe70cfc5c77ed9c909a989bed4a748f400b92f3a71a72128fa60"
 dependencies = [
  "tokensave-lite-treesitters",
- "tree-sitter 0.26.8",
+ "tree-sitter",
  "tree-sitter-bash",
  "tree-sitter-c-sharp",
  "tree-sitter-cpp",
@@ -4417,16 +4417,6 @@ dependencies = [
 
 [[package]]
 name = "tree-sitter"
-version = "0.20.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e747b1f9b7b931ed39a548c1fae149101497de3c1fc8d9e18c62c1a66c683d3d"
-dependencies = [
- "cc",
- "regex",
-]
-
-[[package]]
-name = "tree-sitter"
 version = "0.26.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "887bd495d0582c5e3e0d8ece2233666169fa56a9644d172fc22ad179ab2d0538"
@@ -4502,11 +4492,9 @@ dependencies = [
 [[package]]
 name = "tree-sitter-dockerfile"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ba46310efcac616744ca79aa4b0e228202e388913ebcd4a1ba107072f7f4432a"
 dependencies = [
  "cc",
- "tree-sitter 0.20.10",
+ "tree-sitter-language",
 ]
 
 [[package]]
@@ -4632,7 +4620,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e79d4ae71b42e595c24c354b59905ade8162bd400ebc53ab916ea8aec54da92d"
 dependencies = [
  "cc",
- "tree-sitter 0.26.8",
+ "tree-sitter",
  "tree-sitter-language",
 ]
 

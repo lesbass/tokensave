@@ -96,3 +96,6 @@ logo-art = "0.2"
 
 [dev-dependencies]
 tempfile = "3"
+
+[patch.crates-io]
+tree-sitter-dockerfile = { path = "vendor/tree-sitter-dockerfile" }
